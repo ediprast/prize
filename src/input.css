@@ -33,11 +33,11 @@ html {
 
 .btn-green {
   background-color: #a0cb8a;
-  @apply font-medium text-xl text-white rounded-md px-8 py-4 transition-all duration-300 hover:bg-green-600;
+  @apply font-medium text-center text-lg text-white rounded-md px-8 py-4 transition-all duration-300 hover:bg-green-600 md:text-xl lg:text-2xl;
 }
 .btn-red {
   background-color: #f86b52;
-  @apply font-medium text-lg text-white rounded-md px-8 py-4 transition-all duration-300 hover:bg-red-600 md:text-2xl;
+  @apply font-medium text-center text-lg text-white rounded-md px-8 py-4 transition-all duration-300 hover:bg-red-600 md:text-2xl;
 }
 
 .card {
