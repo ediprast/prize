@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prize</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="mb-2 md:mb-12">
+        <div class="container mx-auto">
+            <div class="navbar">
+                <span class="font-medium text-2xl md:text-4xl">Prize</span>
+
+                <div class="menu md:hidden">
+                        <button id="menu-btn" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 fill-blue-bold transition-all duration-1000 ease-in-out" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+                            </svg>
+                        </button>
+                        <button id="menu-close" class="hidden fill-blue-bold transition-all duration-1000 ease-in-out" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                        </button>
+                </div>
+                    
+                <ul id="nav" class="hidden w-full absolute items-center top-12 bg-white shadow-sm gap-9 p-5 rounded-md md:flex md:static md:w-auto md:p-0 md:shadow-none md:bg-transparent">
+                        <li class="mb-3 md:mb-0"><a href="#" class="inline-block nav-link">Beranda</a></li>
+                        <li class="mb-3 md:mb-0"><a href="#services" class="inline-block nav-link">Layanan</a></li>
+                        <li class="mb-3 md:mb-0"><a href="#about" class="inline-block nav-link">Tentang</a></li>
+                        <li class="mb-3 md:mb-0"><a href="#contact" class="inline-block nav-link">Kontak</a></li>
+                        <li class="h-12 flex items-center">
+                            <a href="#" class="btn-red">Daftar</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="mb-16 md:mb-32">
+        <div class="container mx-auto">
+            <div class="w-full flex flex-col gap-5 lg:flex-row">
+                <div class="w-full">
+                    <div class="">
+                        <img src="/assets/images/hero-image.png" alt="">
+                    </div>
+                </div>
+                <div class="w-full">
+
+                    <div class="flex gap-2 items-center mb-7">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10.2273" cy="9.77273" r="5.68182" fill="#A0CB8A"/>
+                            <circle cx="10" cy="10" r="8.86364" stroke="#A0CB8A" stroke-width="2.27273"/>
+                            </svg>
+                        <p class="text-lg font-light md:text-xl">Selamat Datang di Prize</p>
+                    </div>
+
+                    <h1 class="text-3xl md:leading-normal mb-7 md:text-5xl">Mari Kita Bicara <br> Tentang Bisnis yang <br> Disukai Orang</h1>
+                    <p class="text-lg text-gray-400 mb-10">Sebuah bisnis diciptakan untuk menyediakan produk atau layanan kepada pelanggan. Jika dapat melakukan operasinya secara efektif, pemiliknya memperoleh pengembalian yang wajar atas investasi mereka di perusahaan.</p>
+                    <div class="w-full flex flex-col gap-6 mb-6 md:mb-12 md:flex-row">
+                        <div>
+                            <a href="#" class="btn-green mr-20">Mulai Bicara</a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-xl hover:text-green-500 md:text-2xl">Lihat pekerjaan kami!</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <span class="text-xl mr-6 md:text-2xl">15k Ulasan</span>
+                        <div class="flex flex-row gap-1">                           <img src="/assets/images/Star.svg" alt="">
+                            <img src="/assets/images/Star.svg" alt="">
+                            <img src="/assets/images/Star.svg" alt="">
+                            <img src="/assets/images/Star.svg" alt="">
+                            <img src="/assets/images/Star.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="/assets/images/Star.svg" alt=""> <span class="text-xl md:text-2xl">4.8</span>
+                        <div class="flex flex-row">
+                            <img src="/assets/images/person.png" alt="">
+                            <img class="-ml-[12px]" src="/assets/images/person.png" alt="">
+                            <img class="-ml-[12px]"  src="/assets/images/person.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="mb-16 md:mb-32">
+        <div class="container mx-auto">
+            <p class="text-center orange text-lg mb-3">Fitur Kami</p>
+            <h3 class="font-normal text-2xl text-center md:text-4xl mb-4">Fitur Terbaik yang Kami Hadirkan</h3>
+            <p class="text-center text-gray-500 mb-12 md:mb-20">Kami menyediakan fitur-fitur terbaik untuk Anda yang ingin memulai <br> bisnis atau membangun bisnis yang baik dan sukses</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="card">
+                    <div class="w-full h-3 bg-green absolute"></div>
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/wawasan-pelanggan.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Wawasan Pelanggan</h5>
+                        <p class="text-gray-500 mb-3">Kami selalu melayani pelanggan dengan memberikan pelayanan yang terbaik agar mereka sesuai dengan hasil</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/ide-kreatif.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Ide yang Kreatif</h5>
+                        <p class="text-gray-500 mb-3">Kami selalu memiliki inovasi dan ide kreatif jadi jangan khawatir tentang ide</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/kepemimpinan.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Kepemimpinan Pikiran</h5>
+                        <p class="text-gray-500 mb-3">Kami juga akan mengajari Anda untuk memimpin bisnis Anda agar lebih sukses dan menjadi bisnis besar</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="mb-16 md:mb-32">
+        <div class="container mx-auto">
+            <div class="w-full flex flex-col gap-6 lg:flex-row">
+                <div class="w-full lg:w-2/5">
+                    <div class="">
+                        <img src="/assets/images/about-img.png" alt="">
+                    </div>
+                </div>
+                <div class="w-full lg:w-3/5">
+
+                    <p class="text-lg orange">Tentang Kami</p>
+                    <h3 class="text-2xl md:text-4xl font-normal mb-7">Tentang Prize</h3>
+
+                    <div class="w-full flex flex-col gap-4 md:gap-10 mb-7 md:flex-row">
+                        <div class="w-full">
+                            <a href="#" class="font-normal text-lg">Siapa Kami</a>
+                        </div>
+                       <div class="w-full">
+                            <a href="#" class="font-normal text-lg text-gray-500">Visi Kami</a>
+                       </div>
+                        <div class="w-full">
+                            <a href="#" class="font-normal text-lg text-gray-500">Apa yang Kami Lakukan</a>
+                        </div>
+                    </div>
+
+                    <p class="text-lg text-gray-400 mb-4">Hadiah adalah website yang membantu para pebisnis atau ingin memulai bisnis. Kami akan memberikan pelayanan yang baik agar para pebisnis mampu menjadi team yang sangat mahir dibidangnya sehingga anda tidak perlu khawatir dengan bisnis anda, kami akan mengajari anda dari awal hingga sukses.</p>
+                    <p class="text-lg text-gray-400 mb-10">Dan kami juga memiliki banyak layanan yang dapat membantu Anda, jadi Anda tidak perlu khawatir. Dan dalam setiap pelayanan yang kami berikan, kami akan memberikan yang terbaik untuk bisnis Anda.</p>
+                    
+                    <div class="w-full flex flex-col gap-4 mb-7 md:flex-row">
+                        <div>
+                            <span class="font-normal text-2xl md:text-4xl">30+</span>
+                            <p class="text-gray-500">Kami memiliki 30 tahun pengalaman dalam bisnis</p>
+                        </div>
+                        <div>
+                            <span class="font-normal text-2xl md:text-4xl">1200+</span>
+                            <p class="text-gray-500">Proyek yang kami selesaikan selama 4 tahun</p>
+                        </div>
+                        <div>
+                            <span class="font-normal text-2xl md:text-4xl">545+</span>
+                            <p class="text-gray-500">Kami memiliki banyak pekerja keterampilan atau tim</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="mb-16 md:mb-32">
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center mb-12 md:mb-20 lg:flex-row">
+                <div class="lg:w-2/5">
+                    <p class="orange text-lg mb-3">Layanan Kami</p>
+                    <h3 class="font-normal text-2xl md:text-4xl md:leading-normal mb-4">Kami Penyedia <br> Layanan Berkualitas <br> dengan Cinta</h3>
+                </div>
+                <div class="lg:w-3/5">
+                    <p class="text-gray-500">Kami akan memberikan pelayanan yang terbaik untuk Anda dan kami menyediakan banyak layanan sehingga Anda tidak perlu khawatir untuk membangun bisnis Anda, kami akan mengajari Anda dari awal hingga sukses.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card">
+                    <div class="w-full h-3 bg-green absolute"></div>
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/bisnis.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Layanan Bisnis</h5>
+                        <p class="text-gray-500 mb-10">Kami menyediakan layanan bisnis kepada Anda sehingga Anda dapat mendirikan bisnis yang sukses</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/pemasaran.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Pemasaran Media Sosial</h5>
+                        <p class="text-gray-500 mb-10">Kami menyediakan jasa pemasaran agar usaha anda dapat dikenal oleh banyak orang</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/konsumen.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Produk Konsumen</h5>
+                        <p class="text-gray-500 mb-10">Kami menyediakan layanan produk konsumen agar produk Anda lebih dikenal</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/penelitian.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Penelitian & Penemuan</h5>
+                        <p class="text-gray-500 mb-10">Kami menyediakan layanan untuk riset bisnis Anda jika masih ada yang kurang dan akan kami perbaiki</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/sumber-daya.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Sumber Daya Berkualitas</h5>
+                        <p class="text-gray-500 mb-10">Kami akan memberikan yang terbaik dan juga kami memiliki mitra yang sangat terampil dan pekerjaan yang berkualitas</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="p-9">
+                        <img class="mb-7" src="/assets/images/keuangan.svg" alt="">
+                        <h5 class="text-lg font-normal mb-3">Layanan Keuangan</h5>
+                        <p class="text-gray-500 mb-10">Kami juga menyediakan layanan keuangan sehingga Anda tidak perlu khawatir tentang keuangan dalam bisnis Anda</p>
+
+                        <a href="#" class="green font-normal hover:text-green-500">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="mb-16 md:mb-32">
+        <div class="container mx-auto">
+            <p class="text-center orange text-lg mb-3">Produk</p>
+            <h3 class="font-normal text-center text-2xl md:text-4xl mb-4">Produk yang telah Kami Buat Sebelumnya</h3>
+            <p class="text-center text-gray-500 mb-10 md:mb-20">Ini adalah proyek yang telah kami buat selama 30 tahun dan banyak <br> bisnis atau proyek yang telah kami buat telah berhasil</p>
+
+            <div class="grid grid-cols-1 mb-20 md:grid-cols-2 gap-16 lg:gap-32">
+                <div>
+                    <div class="bg-gray-300 rounded-md pt-12 mb-5">
+                        <img class="mx-auto w-4/5" src="/assets/images/rv.png" alt="">
+                    </div>
+                    <h5 class="font-normal text-2xl mb-5">Rumah Vokasi</h5>
+                    <p class="text-gray-500">Website ini kami buat untuk platform pembelajaran pendidikan vokasi yang bernama Rumah Vokasi. Ini adalah situs web untuk mengelola kursus atau konten dengan lebih baik dan ada banyak fitur berguna</p>
+                </div>
+                <div>
+                    <div class="bg-gray-300 rounded-md pt-12 pb-12 mb-5">
+                        <img class="mx-auto w-4/5 lg:w-1/2" src="/assets/images/app-rv.png" alt="">
+                    </div>
+                    <h5 class="font-normal text-2xl mb-5">Aplikasi Rumah Vokasi</h5>
+                    <p class="text-gray-500">Kami membuat ini di Android yang kami sebut Aplikasi Rumah Vokasi. Aplikasi ini untuk Anda mempelajari banyak keterampilan kejuruan melalui kursus dari pakar pendidikan kejuruan di seluruh dunia</p>
+                </div>
+                <div>
+                    <div class="bg-gray-300 rounded-md pt-12 mb-5">
+                        <img class="mx-auto w-4/5" src="/assets/images/dp.png" alt="">
+                    </div>
+                    <h5 class="font-normal text-2xl mb-5">Dimensi Pesantren</h5>
+                    <p class="text-gray-500">Website ini kami buat untuk platform pembelajaran pendidikan vokasi yang bernama Rumah Vokasi. Ini adalah situs web untuk mengelola kursus atau konten dengan lebih baik dan ada banyak fitur berguna</p>
+                </div>
+                <div>
+                    <div class="bg-gray-300 rounded-md pt-12 mb-5">
+                        <img class="mx-auto w-4/5" src="/assets/images/mk.png" alt="">
+                    </div>
+                    <h5 class="font-normal text-2xl mb-5">Manajemen Konferensi</h5>
+                    <p class="text-gray-500">Kami membuat ini di Android yang kami sebut Aplikasi Rumah Vokasi. Aplikasi ini untuk Anda mempelajari banyak keterampilan kejuruan melalui kursus dari pakar pendidikan kejuruan di seluruh dunia</p>
+                </div>
+            </div>
+
+            <p class="text-center"><a href="#" class="btn-green">Lihat lebih banyak</a></p>
+        </div>
+    </section>
+
+    <section id="testimony" class="mb-16 md:mb-32">
+        <div class="container mx-auto">
+            <div class="w-full flex flex-col gap-6 lg:gap-32 lg:flex-row">
+                <div class="w-full lg:w-2/5">
+                    <div class="">
+                        <img src="/assets/images/testimoni.png" alt="">
+                    </div>
+                </div>
+                <div class="w-full md:py-20 lg:w-3/5">
+
+                    <p class="text-lg orange">Testimoni</p>
+                    <h3 class="text-2xl md:text-4xl md:leading-normal font-normal mb-7">Apa yang Mereka <br> Katakan tentang Prize</h3>
+
+                    <p class="text-lg text-gray-400 mb-10">Saya sangat ragu untuk membangun bisnis atau startup tanpa Prize, karena Prize sangat berpengaruh dalam bisnis kami dan juga tim Prize sangat profesional dan ahli. Jadi tidak akan ragu untuk bekerja sama dengan Prize</p>
+                    
+                    <p class="font-normal text-xl md:text-2xl">Hiro Hamada</p>
+                    <p class="text-gray-500 text-lg mb-10">Co-Founder SandBox</p>
+
+                    <a href="#" class="btn-green">Lihat semua masukan</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container mx-auto p-20">
+            <div class="flex flex-col gap-20 mb-20 lg:flex-row">
+                <div id="contact" class="w-full flex flex-col gap-12 lg:w-1/3">
+                    <h3 class="text-3xl font-normal">Prize</h3>
+                    <div class="flex flex-row items-center border border-gray-500 rounded-md px-3 py-5 gap-3">
+                        <img src="/assets/images/mail.svg" alt="Mail Icon">
+                        <input type="email" class="w-full bg-transparent focus:outline-none" placeholder="Email Anda">
+                        <a href="#"><img class="w-8" src="/assets/images/send.svg" alt="Send Icon"></a>
+                    </div>
+                    <div class="flex flex-row justify-center gap-12 mb-2 lg:justify-start">
+                        <div>
+                            <a href="https://www.instagram.com/kodingnowcom/" target="_blank" class="group transition-all duration-300">
+                                    <img src="/assets/images/instagram.svg" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="transition-all duration-300 group">
+                                <img src="/assets/images/twitter.svg" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="transition-all duration-300 group">
+                                <img src="/assets/images/facebook.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex flex-col gap-10 md:flex-row lg:w-2/3">
+                    <div class="w-full flex flex-col gap-12">
+                        <h5 class="text-2xl font-normal">Tentang</h5>
+                        <div class="flex flex-col gap-7">
+                            <a href="#" class="text-gray-500">Tentang Kami</a>
+                            <a href="#" class="text-gray-500">Fitur</a>
+                            <a href="#" class="text-gray-500">Terbaru</a>
+                            <a href="#" class="text-gray-500">Karir</a>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col gap-12">
+                        <h5 class="text-2xl font-normal">Perusahaan</h5>
+                        <div class="flex flex-col gap-7">
+                            <a href="#" class="text-gray-500">Tim Kami</a>
+                            <a href="#" class="text-gray-500">Bermitra dengan Kami</a>
+                            <a href="#" class="text-gray-500">FAQ</a>
+                            <a href="#" class="text-gray-500">Blog</a>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col gap-12">
+                        <h5 class="text-2xl font-normal">Dukungan</h5>
+                        <div class="flex flex-col gap-7">
+                            <a href="#" class="text-gray-500">Akun</a>
+                            <a href="#" class="text-gray-500">Pusat Dukungan</a>
+                            <a href="#" class="text-gray-500">Umpan Balik</a>
+                            <a href="#" class="text-gray-500">Kontak kami</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-16 text-center border-t border-gray-300">
+                <p class="font-normal tex-lg md:text-2xl">Build with Love in Surakarta | © 2022 Prize. Copyright and All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dist/index.js"></script>
+</body>
+</html>

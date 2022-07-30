@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+  @apply font-light;
+  background-color: #fcfdfb;
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply px-2 md:px-5 lg:px-28;
+}
+
+.orange {
+  color: #f86b52;
+}
+
+.bg-orange {
+  background-color: #f86b52;
+}
+
+.green {
+  color: #a0cb8a;
+}
+
+.bg-green {
+  background-color: #a0cb8a;
+}
+
+.btn-green {
+  background-color: #a0cb8a;
+  @apply font-medium text-xl text-white rounded-md px-8 py-4 transition-all duration-300 hover:bg-green-600;
+}
+.btn-red {
+  background-color: #f86b52;
+  @apply font-medium text-lg text-white rounded-md px-8 py-4 transition-all duration-300 hover:bg-red-600 md:text-2xl;
+}
+
+.card {
+  box-shadow: 1px 13px 15px #f5f5f5;
+  @apply bg-white rounded-lg relative overflow-hidden;
+}
+
+.navbar {
+  @apply w-full relative flex flex-row items-center justify-between py-3 md:py-9;
+}
+
+.nav-link {
+  @apply text-lg md:text-2xl hover:text-green-500;
+}
+
+footer {
+  background-color: #f9fcf8;
+}
